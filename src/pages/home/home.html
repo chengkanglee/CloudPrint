@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar>
+      <ion-title>
+        PrintUp
+      </ion-title>
+
+      <ion-buttons right>
+
+        <button ion-button>
+          <p>Setting</p>
+        </button>
+
+        <button ion-button>
+          <p>About</p>
+        </button>
+
+        <button ion-button (click) = "signOut()">
+          <p>Sign Out</p>
+        </button>
+
+      </ion-buttons>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <button ion-button color = "light" (click) = "submitPrintJob()">
+    <p>Submit</p>
+  </button>
+</ion-content>
